@@ -28,10 +28,8 @@ document.write("<br>");
 
 document.write("問4"+"<br>");
 for(var e=1;e<=4;e++){
-    for(var f=1;f<=10;f++){
-        if(f % 2==0){
+    for(var f=1;f<=5;f++){
             document.write("★");
-        }
     }
     document.write("<br>");
 }
@@ -39,11 +37,9 @@ document.write("<br>");
 
 document.write("問5"+"<br>");
 for(var e=1;e<=4;e++){
-    for(var f=1;f<=6;f++){
-        if(f % 2==0){
+    for(var f=1;f<=4;f++){
             document.write("★");
         }
-    }
     document.write("<br>");
 }
 document.write("<br>");
