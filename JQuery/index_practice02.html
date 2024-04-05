@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>practice02</title>
+  <link rel="stylesheet" type="text/css" href="style_practice02.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.abc').bxSlider({
+        auto: true,
+        mode:'horizontal',
+        speed: 2000,
+        controls:false,
+        slideWidth:900
+      });
+    });
+  </script>
+</head>
+  
+<body>
+  <main>
+    <div class="left">
+      <div id="daimei">プログラミングに役立つ書籍</div> 
+      <div class="abc">
+      <div><img src="jQuery_image1.jpg"></div>
+      <div><img src="jQuery_image2.jpg"></div>
+      <div><img src="jQuery_image3.jpg"></div>
+      <div><img src="jQuery_image4.jpg"></div>
+      <div><img src="jQuery_image5.jpg"></div>
+      </div>
+    </div>
+        
+    <div class="right">
+      <div id="koumoku1">人気の記事</div>
+      <p>PHPオススメ本<br>PHP MyAdminの使い方<br>今人気のエディタTops<br>HTMLの基礎</p>
+      <div id="koumoku2">オススメリンク</div>
+      <p>ﾃﾞｨｱｲﾜｰｸｽ株式会社<br>XAMPPのダウンロード<br>Eclipseのダウンロード<br>Braketsのダウンロード</p>
+      <div id="koumoku3">カテゴリ</div>
+      <p>HTML<br>PHP<br>MySQL<br>JavaScript</p>
+    </div>
+  </main>    
+</body>
+</html>

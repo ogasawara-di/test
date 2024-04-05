@@ -1,0 +1,162 @@
+img{
+width: 100px;
+margin-left: 20px;
+max-width: 96%;
+}
+
+.menu{
+background-color: black;
+height:20px;
+ margin-left: 20px;
+margin-top:0px;
+    margin-bottom:3px;
+}
+
+.menu li{
+float:left;
+list-style: none;
+line-height: 20px;
+padding-right:10px;
+font-size: 8px;
+color:white;
+}
+
+main{
+clear: both;
+}
+
+body{
+  height: 1080px;
+  width: 1920px;
+  position: absolute;
+  transform-origin: 0% 0%;
+}
+main{
+margin-top: 0px;
+}
+.right{
+float: left;
+width: 70%;
+height:1000px;
+border:3px solid blue;
+margin-left: 10px;
+margin-top: 0px;
+max-width: 96%;
+}
+
+.left{
+float: left;
+width: 28%;
+height:1000px;
+border:3px solid red;
+margin-top: 0px;
+max-width: 96%;
+}
+
+.right img{
+width:800px;
+height: 400px;
+margin-left: 10px;
+margin-bottom: 0px;
+max-width: 100%;
+}
+
+#daimei{
+margin-left: 10px;
+font-size:15px;
+border-left:3px solid black;
+border-bottom: 2px solid gray;
+padding-left: 5px;
+padding-top: 2px;
+}
+
+#hiduke{
+margin-left: 10px;
+font-size:8px;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+
+#setsumei{
+margin-left: 10px;
+font-size:10px;
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+#setsumei2{
+margin-left: 0px;
+font-size:10px;
+padding-top: 5px;
+padding-bottom: 2px;
+}
+
+.gray_box{
+width:800px;
+height: 150px;
+max-width: 96%;
+background-color: lightgray;
+text-align: center;
+padding-left: 10px;
+}
+.gray_box2{
+width:800px;
+height: 150px;
+max-width: 96%;
+background-color: lightgray;
+text-align: center;
+padding-left: 10px;
+}
+
+.gray_box img{
+width:180px;
+height: 120px;
+margin:5px 2px 1px 2px;
+}
+.gray_box2 img{
+width:180px;
+height: 120px;
+margin:5px 2px 1px 2px;
+}
+
+.gray_box .box_pic1{
+display: inline-block;
+}
+.gray_box2 .box_pic2{
+display: inline-block;
+}
+
+.box_pic1 p{
+font-size: 8px;
+margin-top: 2px;
+}
+
+.box_pic2 p{
+font-size: 8px;
+margin-top: 2px;
+}
+
+#koumoku1,#koumoku2,#koumoku3{
+border-bottom: 2px solid silver;
+font-size: 10px;
+width: 80%;
+margin-top: 5px;
+margin-left: 5px;
+}
+
+.left p{
+font-size: 8px;
+margin-left: 5px;
+}
+
+footer{
+clear: left;
+color: white;
+background-color: black;
+text-align: center;
+font-size: 10px;
+line-height: 20px;
+margin-left: 20px;
+margin-top: 3px;
+margin-bottom: 0 auto;
+}

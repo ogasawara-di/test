@@ -1,0 +1,129 @@
+img{
+    width: 200px;
+    margin-left: 20px;
+    max-width: 96%;
+}
+
+.menu{
+    background-color: black;
+    height:20px;
+    margin-left: 20px;
+    margin-top:0px;
+    margin-bottom:3px;
+}
+
+.menu li{
+    float:left;
+    list-style: none;
+    line-height: 20px;
+    padding-right:10px;
+    font-size:10px;
+    color:white;
+}
+
+main{
+    clear: both;
+}
+
+body{
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ",sans-serif;
+}
+
+main{
+    margin-top: 0px;
+}
+
+form{
+    margin-left:4px; 
+    padding-left:4px;
+    background-color:#fbfbfb; 
+    border:3px #ebebeb solid;
+    border-radius:10px;
+    max-width: 96%;
+    width:500px;
+}
+
+.kiji{
+    margin-left:4px; 
+    padding-left:4px;
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    max-width: 96%;
+    width:500px;
+}
+.text,textarea{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    background: #fff;
+}
+
+h1{
+    margin:0 auto; 
+    margin-top:5px;
+    margin-bottom:5px; 
+    border-left:4px red solid; 
+    padding-top:5px;
+    padding-bottom:5px; 
+    padding-left:4px; 
+    width:500px; 
+    font-size:15px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    height:800px;
+    margin-left: 10px;
+    margin-top: 0px;
+    max-width: 96%;
+}
+
+h3{
+    margin-left: 10px;
+    font-size:15px;
+    border-bottom: 2px solid #dfdfdf;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.right{
+    float: left;
+    width: 20%;
+    height:800px;
+    margin-top: 0px;
+    max-width: 96%;
+}
+
+#daimei{
+    margin-left: 10px;
+    font-size:15px;
+    border-left:3px solid black;
+    border-bottom: 2px solid gray;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+#koumoku1,#koumoku2,#koumoku3{
+    border-bottom: 2px solid silver;
+    font-size: 15px;
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.right p{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+footer{
+    clear: left;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 0 auto;
+}
